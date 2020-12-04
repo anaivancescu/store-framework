@@ -12,6 +12,9 @@
       "textAlignment":"RIGHT"
     }
   },
+  "info-card":{
+    "blockClass": "image"
+  },
   "info-card#button-right": {
     "props": {
       "isFullModeStyle": false,
