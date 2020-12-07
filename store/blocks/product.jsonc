@@ -19,33 +19,20 @@
     ]
   },
   "flex-layout.col#right": {
+    "props":{
+      "verticalAlign": "middle",
+      "preventVerticalStretch" : true
+    },
     "children": [
       "product-name",
       "product-price",
       "buy-button"
     ]
   },
-  "product-name":{
-    "props":{
-      "verticalAlign": "middle",
-      "preventVerticalStretch" : true
-      
-    }
-  },
   "product-price": {
     "props":{
-      "verticalAlign":"middle",
-      "preventVerticalStretch" : true,
       "showSavings": true,
       "showListPrice": true
     }
-  },
-  "buy-button":{
-    "props":{
-      "verticalAlign": "middle",
-      "preventVerticalStretch" : true
-     
-    }
   }
-  
 }
