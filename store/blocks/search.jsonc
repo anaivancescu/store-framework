@@ -18,14 +18,14 @@
     "flex-layout.row#top",
     "search-fetch-previous",
     "flex-layout.row#results",
-    "search-fetch-more"
+    "search-fetch-more",
+    "product-summary"
    ]
  },
  "flex-layout.row#results": {
   "children": [
     "flex-layout.col#filter",
-    "flex-layout.col#search",
-    "product-summary"
+    "flex-layout.col#search"
   ]
 },
 "flex-layout.col#filter":{
@@ -35,7 +35,7 @@
   "children":[
     "filter-navigator.v3"
   ]
-},
+},  
 "flex-layout.col#search":{
   "children":[
     "search-content"
