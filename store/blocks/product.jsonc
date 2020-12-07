@@ -26,10 +26,21 @@
     },
     "children": [
       "product-name",
-      "product-indentifier.product",
-      "product-price",
-      "flex-layout.row#qty-sku",
+      "product-identifier.product",
       "buy-button"
+    ]
+  },
+  "product-identifier.product":{
+    "children":[
+      "product-price",
+      "flex-layout.row#qty-sku"
+    ]
+  },
+  "flex-layout.row#qty-sku": {
+    "children": [
+      "sku-selector",
+      "product-quantity",
+      "shipping-simulator"
     ]
   },
   "product-price": {
@@ -37,12 +48,5 @@
       "showSavings": true,
       "showListPrice": true
     }
-  },
-  "flex-layout.row#qty-sku": {
-      "children": [
-        "sku-selector",
-        "product-quantity",
-        "shipping-simulator"
-      ]
-    }
+  }  
 }
