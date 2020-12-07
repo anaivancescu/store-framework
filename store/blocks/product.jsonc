@@ -27,22 +27,24 @@
   },
   "product-name":{
     "props":{
-      "preventVerticalStretch" : true,
-      "verticalAlign": "bottom"
+      "verticalAlign": "middle",
+      "preventVerticalStretch" : true
+      
     }
   },
   "product-price": {
     "props":{
+      "verticalAlign":"middle",
       "preventVerticalStretch" : true,
-      "verticalAlign":"bottom",
       "showSavings": true,
       "showListPrice": true
     }
   },
   "buy-button":{
     "props":{
-      "preventVerticalStretch" : true,
-      "verticalAlign": "bottom"
+      "verticalAlign": "middle",
+      "preventVerticalStretch" : true
+     
     }
   }
   
