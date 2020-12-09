@@ -94,58 +94,76 @@
   },
   "responsive-layout.desktop#desktop": {
     "children": [
-      "header-row#notification",
-      "header-row#main",
-      "header-row#main-mobile",
-      "header-row#search",
+      "header",
       "rich-text#header",
       "rich-text#desktop",
       "image#desktop"
   ]
   },
-  
+  "header":{
+    "blocks":[
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+
+  "header-layout.desktop":{
+    "children":[
+      "header-row#notification",
+      "header-row#main",
+      "header-row#search"
+    ]
+  },
+  "header-layout.mobile":{
+    "children":[
+      "header-row#main-mobile",
+      "header-row#search"
+    ]
+  },
   "responsive-layout.mobile#mobile": {
     "children": [
       "rich-text#mobile",
-      "image#mobile"]
-  },
-  
-  "rich-text#desktop": {
-    "props": {
-      "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
-      "textPosition": "CENTER",
-      "textAlignment": "CENTER"
-    }
-  },
-  
-  "rich-text#mobile": {
-    "props": {
-      "text": "### Your Coffee, Your Way \n #### New Coffee Makers Collection",
-      "textPosition": "CENTER",
-      "textAlignment": "CENTER"
-    }
-  },
-  "image#desktop": {
-    "props": {
-      "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1",
-      "link": {
-        "url": "/small-appliances/coffee-makers"
-      } ,
-      "alt": "Coffee Makers Collection",
-      "maxWidth": "100%"
-    }
-  },
-  
-  "image#mobile": {
-    "props": {
-      "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg?q=1",
-      "link": {
-        "url": "/small-appliances/coffee-makers"
-      } ,
-      "alt": "Coffee Makers Collection",
-      "maxWidth": "100%"
-    }
+      "image#mobile",
+      "header-row#main-mobile"]
   }
+  
+  
+  // "rich-text#desktop": {
+  //   "props": {
+  //     "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
+  //     "textPosition": "CENTER",
+  //     "textAlignment": "CENTER"
+  //   }
+  // },
+  
+  // "rich-text#mobile": {
+  //   "props": {
+  //     "text": "### Your Coffee, Your Way \n #### New Coffee Makers Collection",
+  //     "textPosition": "CENTER",
+  //     "textAlignment": "CENTER"
+  //   }
+  // },
+  // "image#desktop": {
+  //   "props": {
+  //     "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1",
+  //     "link": {
+  //       "url": "/small-appliances/coffee-makers"
+  //     } ,
+  //     "alt": "Coffee Makers Collection",
+  //     "maxWidth": "100%"
+  //   }
+  // },
+  
+  // "image#mobile": {
+  //   "props": {
+  //     "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg?q=1",
+  //     "link": {
+  //       "url": "/small-appliances/coffee-makers"
+  //     } ,
+  //     "alt": "Coffee Makers Collection",
+  //     "maxWidth": "100%"
+  //   }
+  // }
 }
 
 
