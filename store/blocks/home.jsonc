@@ -89,22 +89,22 @@
   "store.home": {
     "blocks": [
       "responsive-layout.desktop#desktop",
-      "responsive-layout.mobile#mobile"
+      "responsive-layout.mobile#mobile",
+      "header.full"
     ]
-  },
-  "responsive-layout.desktop#desktop": {
-    "children": [
-      "header.full",
-      "rich-text#header"
-      // "rich-text#desktop",
-      // "image#desktop"
-  ]
   },
   "header.full":{
     "blocks":[
       "header-layout.desktop",
       "header-layout.mobile"
     ]
+  },
+  "responsive-layout.desktop#desktop": {
+    "children": [
+      "header-layout.desktop",
+      "rich-text#desktop",
+      "image#desktop"
+  ]
   },
 
   "header-layout.desktop":{
@@ -118,24 +118,23 @@
     "children":[
       "header-row#notification",
       "header-row#main-mobile",
-      "header-row#search"
+      "header-row#search",
+      "rich-text#mobile"
     ]
   },
   "responsive-layout.mobile#mobile": {
     "children": [
-      "rich-text#mobile",
-      "image#mobile",
-      "header-row#main-mobile"]
+      "header-layout.mobile",
+      "image#mobile"]
+  },  
+  
+  "rich-text#desktop": {
+    "props": {
+      "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
   }
-  
-  
-  // "rich-text#desktop": {
-  //   "props": {
-  //     "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
-  //     "textPosition": "CENTER",
-  //     "textAlignment": "CENTER"
-  //   }
-  // },
   
   // "rich-text#mobile": {
   //   "props": {
