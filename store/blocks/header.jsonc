@@ -1,14 +1,15 @@
-{  "header": {
-  "blocks": [
-    "header-layout.desktop",
-    "header-layout.mobile"
-  ]
+{  
+"header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
 },
 "header.full":{
-  "blocks":[
-    "header-layout.desktop",
-    "header-layout.mobile"
-  ]
+    "blocks":[
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
 },
 
 "header-layout.desktop":{
@@ -35,12 +36,11 @@
   },
   "header-row#main":{
     "children": [
-      "header-spacer",
       "logo",
+      "header-spacer",
       "search-bar",
       "minicart",
-      "login",
-      "header-spacer"
+      "login"
     ],
     "props":{
         "inverted":true,
