@@ -94,13 +94,13 @@
   },
   "responsive-layout.desktop#desktop": {
     "children": [
-      "header",
+      "header.full",
       "rich-text#header",
       "rich-text#desktop",
       "image#desktop"
   ]
   },
-  "header":{
+  "header.full":{
     "blocks":[
       "header-layout.desktop",
       "header-layout.mobile"
@@ -116,6 +116,7 @@
   },
   "header-layout.mobile":{
     "children":[
+      "header-row#notification",
       "header-row#main-mobile",
       "header-row#search"
     ]
