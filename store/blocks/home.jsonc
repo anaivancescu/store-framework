@@ -96,42 +96,14 @@
       "header-layout.mobile"
     ]
   },
-  "header": {
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
-  },
-  "header.full":{
-    "blocks":[
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
-  },
   "responsive-layout.desktop#desktop": {
     "children": [
-      "header-layout.desktop",
       "rich-text#desktop",
       "image#desktop"
   ]
   },
-
-  "header-layout.desktop":{
-    "children":[
-      "header-row#notification",
-      "header-row#main"
-    ]
-  },
-  "header-layout.mobile":{
-    "children":[
-      "header-row#notification",
-      "header-row#main-mobile",
-      "header-row#search"
-    ]
-  },
   "responsive-layout.mobile#mobile": {
     "children": [
-      "header-layout.mobile",
       "image#mobile",
       "rich-text#mobile"
     ]
