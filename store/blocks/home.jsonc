@@ -95,9 +95,9 @@
   "responsive-layout.desktop#desktop": {
     "children": [
       "header.full",
-      "rich-text#header",
-      "rich-text#desktop",
-      "image#desktop"
+      "rich-text#header"
+      // "rich-text#desktop",
+      // "image#desktop"
   ]
   },
   "header.full":{
