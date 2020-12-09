@@ -94,8 +94,11 @@
   },
   "responsive-layout.desktop#desktop": {
     "children": [
+      "header-row#notification",
+      "header-row#main",
       "rich-text#desktop",
-      "image#desktop"]
+      "image#desktop"
+  ]
   },
   
   "responsive-layout.mobile#mobile": {
